@@ -1,0 +1,8 @@
+#_(use 'clojure.tools.deps.alpha.repl)
+{:deps
+ {org.clojure/clojure {:mvn/version "1.10.1"}
+  ring/ring-jetty-adapter {:mvn/version "1.9.5"}
+  ring/ring-defaults {:mvn/version "0.3.3"}
+  metosin/muuntaja {:mvn/version "0.6.8"}
+  compojure/compojure {:mvn/version "1.7.0"}}}
+
